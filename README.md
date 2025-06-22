@@ -2,13 +2,13 @@
 
 由 Python 构建的一系列小工具合集
 
-## 许可证
+## 1. 许可证
 
 本项目采用 Apache 2.0 许可证授权
 
 作者（或原始版权持有者）依然保留对代码的版权（Copyright）。
 
-## 1. 开发指南
+## 2. 开发指南
 
 - git 远程常驻分支包括：`main`, `develop`
 - 新功能开发时，从 `develop` 分支新建 `feature, hotfix, bugfix` 分支（会定期清理）
@@ -39,7 +39,7 @@ git merge --squash local
 git merge feature/xxx
 ```
 
-## 2. Paste Image Tool 工具介绍
+## 3. Paste Image Tool 工具介绍
 
 本工具可实现从剪贴板捕获图片→自动保存→生成 Markdown 图片链接→复制回剪贴板的完整流程。适用于技术文档编写、笔记记录等需要频繁插入图片的场景。
 
